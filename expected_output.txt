@@ -1,0 +1,83 @@
+// LINEAR———>
+
+// Input words file is words.txt, and query file is query_words.txt
+// TestFunctionForHashTables...
+// Words filename: words.txt
+// Query filename: query_words.txt
+
+number_of_elements: 25143
+size_of_table: 55609
+load_factor: 0.452139
+collisions: 24235
+avg_collisions: 0.963887
+
+alone Found 1
+binary Found 2
+catastrophe Found 1
+dog Found 1
+family Found 1
+loath Found 1
+oath Found 11
+zebra Found 2
+bikini Found 1
+zucchiniaa Not_Found 1
+lwa Not_Found 1
+panacea Found 1
+pnca Not_Found 1
+
+
+// QUADRATIC——>
+
+// Input words file is words.txt, and query file is query_words.txt
+// TestFunctionForHashTables...
+// Words filename: words.txt
+// Query filename: query_words.txt
+
+number_of_elements: 25143
+size_of_table: 55609
+load_factor: 0.452139
+collisions: 21214
+avg_collisions: 0.843734
+
+alone Found 1
+binary Found 2
+catastrophe Found 1
+dog Found 1
+family Found 1
+loath Found 1
+oath Found 5
+zebra Found 2
+bikini Found 1
+zucchiniaa Not_Found 1
+lwa Not_Found 2
+panacea Found 1
+pnca Not_Found 1
+
+// DOUBLE HASHING ——>
+
+// ./CreateAndTestHash words.txt query_words.txt double
+// Input words file is words.txt, and query file is query_words.txt
+// TestFunctionForHashTables...
+// Words filename: words.txt
+// Query filename: query_words.txt
+
+r_value: 89
+number_of_elements: 25143
+size_of_table: 55609
+load_factor: 0.452139
+collisions: 19258
+avg_collisions: 0.765939
+
+alone Found 1
+binary Found 2
+catastrophe Found 1
+dog Found 1
+family Found 1
+loath Found 1
+oath Found 2
+zebra Found 4
+bikini Found 1
+zucchiniaa Not_Found 3
+lwa Not_Found 1
+panacea Found 1
+pnca Not_Found 1
